@@ -10,3 +10,14 @@ class Node:
         self.next = None
 
 
+def remove_nth_from_end(head):
+    
+    traveler = head
+    prev = None
+
+    while head and head.next:
+        prev = head
+        temp = head.next.next
+
+        head = head.next
+        head.next = prev
