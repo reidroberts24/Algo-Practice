@@ -1,6 +1,7 @@
 import math
 head = [1, 2, 3, 4, 5, 6]
 
+'''
 def reorder_list(head):
     mid = math.ceil(len(head)/2)
     first_half = head[:mid]
@@ -16,3 +17,5 @@ def reorder_list(head):
     return res
 
 print(reorder_list(head))
+'''
+
